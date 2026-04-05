@@ -8,7 +8,7 @@ The application is deployed on Netlify with automatic updates on each commit:
 
 [![Netlify Status](https://img.shields.io/badge/Netlify-Deployed-success?style=for-the-badge&logo=netlify)](https://main--splendorous-caramel-6bc6d0.netlify.app)
 
-**Live Demo:** https://nimble-pithivier-2162b6.netlify.app/
+**Live Demo:** https://main--splendorous-caramel-6bc6d0.netlify.app
 
 ![Exchange Converter](./screenshots/exchange.png)
 
