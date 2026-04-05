@@ -192,8 +192,8 @@ This is **complex state coordination** that tests understanding of event loops a
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/Przelicznik-walut.git
-   cd Przelicznik-walut
+   git clone https://github.com/Mitwok/Currency-Exchange-Converter.git
+   cd Currency-Exchange-Converter
    ```
 
 2. **Open directly in browser**
@@ -249,35 +249,6 @@ This mimics real forex trading where:
 
 - `ask` = Price at which dealer sells
 - `bid` = Price at which dealer buys
-
-### Data Flow Diagram
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    User Input Events                          │
-│         (keyup, change, click on inputs/selectors)          │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-                    ┌────▼────┐
-                    │ Handlers │
-                    └────┬────┘
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-   ┌────▼───┐      ┌────▼───┐      ┌────▼───┐
-   │Exchange│      │Filter  │      │Update  │
-   │Rate    │      │Options │      │State   │
-   │Update  │      │Display │      │Flags   │
-   └────┬───┘      └────┬───┘      └────┬───┘
-        │                │                │
-        └────────────────┼────────────────┘
-                         │
-                    ┌────▼──────┐
-                    │ DOM Updates│
-                    │ (Inputs,   │
-                    │  Selects)  │
-                    └───────────┘
-```
 
 ### Conversion Algorithm
 
